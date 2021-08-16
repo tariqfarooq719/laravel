@@ -1,0 +1,185 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>	
+<h1> this is a heading</h1>
+<p> this is a paragraph</p>
+<h1> this is a heading</h1>
+<p> this is a paragraph</p>
+<h1> this is a heading</h1>
+<p> this is a paragraph</p>
+<h1> this is a heading</h1>
+<p> this is a paragraph</p>
+
+<div class="city">
+<h2>london</h2>
+<P> london is the capital of england.</P>
+</div>	
+<div class="punjab">
+	<h2>paris</h2>
+	<p> paris is the capital of france.</p>
+</div>
+<div class="note ">
+<h2>tokyo</h2>	
+<p> tokyo is the capital of japan.</p>
+<div class="punjab">
+<h3>lahore</h3>
+<p>lahore lahore aa.</p>	
+</div>
+<h1> My <span class="note">important</span>heading</h1>
+<p> My <span class="note">important</span>paragraph</p>
+<h2> the id attribute</h2>
+<h1 id="myheader">my header</h1>
+<h2 id="myheader">my header2</h2>
+<h4 class="junaid"> london</h4>      <!--multiple classes-->
+<h5 class="junaid"> pairs </h5>
+<h2 class= "junaid hanif">islamabad</h2>
+<h3 class="junaid awais">kasur</h3>
+<h1 class="hello">india</h1>      <!--share same class-->
+<p class="hello">india</p>
+<h2 class="h">pakistan</h2>      <!--syntax class-->
+<p>dill dill pakistan</p>
+<h5 id="myid">MY ID</h5>        <!--id attribute-->
+<h1 class="class1">My class one</h1>  <!--class and ID difference-->
+<h2 class="class1">my class two</h2>
+<h3 class="class1">my class three</h3>
+<h4 class="class1">my class foure</h4>
+<h5 class="class1">my class five</h5>
+<h1 id="no"> My first ID</h1>
+<a href="#c4">jump to chapter 4</a><br>  <!--bookmark with id and link-->
+<a href="#c6">jump to chapter 6</a>
+<h2> chapter 1</h2>
+<h2> chapter 2</h2>
+<h2> chapter 3</h2>
+<h2 id="c4"> chapter 4</h2>
+<h2> chapter 5</h2>
+<h2 id="c6">chapter 6</h2>
+<h2> basic html table</h2>   <!--basic table-->
+<tr>
+	<th>first name</th>
+	<th>last name</th>
+	<th>age</th>
+</tr>
+<tr>
+<td>junaid</td>
+<td>hanif</td>
+<td>23</td>
+</tr>
+<h2> unorder list </h2>
+<ul>
+	<li>coffe</li>
+	<li>tea</li>
+	<li>milk</li>
+</ul>
+<h2>order</h2>
+<ol>
+	<li>coffe</li>
+	<li>tea</li>
+	<li>milk</li>
+</ol>
+<h2> A description list</h2>
+<dl>
+<dt>coffee</dt>
+<dd> black hot drink</dd>
+<dt>drink<dt>
+<dd> white cold drink</dd>	
+</dl>
+<ul style="list-style-type: disc;">
+	<li>coffee</li>
+	<li>milk</li>
+	<li>water</li>
+	<ul style="list-style-type: circle;">
+		<li>cofee</li>
+		<li>milk</li>
+		<li>water</li>
+		<ul style="list-style-type: square;">
+			<li>coffee</li>
+			<li>milk</li>
+			<li>water</li>
+		</ul>
+		<h2> order list numbering</h2>
+		<ol type="1">
+		<li>name</li>
+		<li>junaid</li>
+		<li>awais</li>
+	</ol>
+	<h2> order list with letter</h2>
+	<ol type="A">
+	<li>coffee</li>
+	<li>milk</li>
+	<li>water</li>
+</ol>
+<h2> order list with lowercase letter</h2>
+<ol type="a">
+	<li>apple</li>
+	<li>mango</li>
+	<li>grapes</li>
+</ol>
+<div style="border: 1px solid black;">hello world</div>
+<p> block element will always start on a new line.</p>
+<p> this is an inline span <span style="border: 1px solid black;">hello world</span> elment inside a paragraph</p>
+<p> inline element will not start a new line</p>
+<div style="background-color: black; color: white; padding: 30%;">
+	<h2> london </h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p></div>
+<h2> HTML iframes </h2>
+<iframe src="/html/menu.htm" height="100" width="300" title="iframesex example">
+<iframe src="/html/menu.htm" style="border: 2% solid res;" title="iframes example"></iframe>	
+</iframe>
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="200%" title="iframes example"></iframe>
+<h1> my first javascript</h1>
+
+<button type="button"
+onclick="document.getElementById('ali').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="ali"></p>
+<h2>use javascript to change text</h2>
+<p id="junaid"></p>
+<script> document.getElementById("junaid").innerHTML = "Hello JavaScript!";</script>
+<p> javascript can change the content of an HTML element:</p>
+<button type="button" onclick="myFunction()">click me!</button>
+<p id ="demo">this is a demostration.</p>
+<script>
+	function myFunction(){
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}	
+</script>
+<p id="junaid">javascript can change the style of an hmtl.</p>
+<script>
+	function myFunction() {
+document.getElementById("junaid").style.fontsize ="30%";
+document.getElementById("junaid").style.style.color = "red";
+document.getElementById("junaid").style.backgroundcolor ="yellow";
+	}
+</script>
+<button type="button"onclick="myFunction()">click me!</button>
+<video width="400" height="500" controls>  <!--html video element-->
+<source src="movie.mp4" type="video/mp4">
+</video>
+<video width="400" height="500" autoplay muted> <!--auto play-->
+<source src="movie.mp4" type="video/mp4">
+</video>
+<audio controls>
+	<source src="hourse.mp3" type="audio/mp3">
+</audio>
+<audio autoplay>
+<source src="hourse.audio" type="audio/mp3">
+</audio>
+<audio autoplay muted>
+<source src="hourse.mp3" type="audio/mpe">
+</audio>
+<object width="100px" height="500px" data="snippet.html"></object>   <!--object element-->
+<object data="audi.jpeg"></object>
+<embed src="audi.jpeg"></embed>
+<embed width="100%" height="500%" src="snippet.html"></embed>
+<iframe width="200" height="300" src= "https://www.youtube.com/embed/tgbNymZ7vq"></iframe> 
+</body>
+</html>
+
+
+
+
+
